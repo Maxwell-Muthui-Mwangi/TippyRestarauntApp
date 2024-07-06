@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for dark mode. -->
+    <style name="Base.Theme.TippyRestarauntApp.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/light_blue</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/blue_gray</item>
+        <item name="colorSecondaryVariant">@color/dark_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="colorSurface">@color/dark_blue</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorError">@color/red</item>
+        <item name="colorOnError">@color/black</item>
+    </style>
+
+    <!-- Dark theme application theme -->
+    <style name="Theme.TippyRestarauntApp.Dark" parent="Base.Theme.TippyRestarauntApp.Dark" />
+</resources>
