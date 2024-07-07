@@ -11,5 +11,8 @@
 
 
     <color name="red">#FF0000</color>
+    
+    <color name="color_worst_tip">#FF0000</color>
+    <color name="color_best_tip">#0D47A1</color>
 
 </resources>
