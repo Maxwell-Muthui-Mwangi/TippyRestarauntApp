@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="80dp"
         android:text="Base"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:ems="8"
-        android:hint="Bill Amount"
+        android:hint="Enter Bill Amount"
         android:inputType="numberDecimal"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/tvBaseLabel"
@@ -111,18 +111,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="410dp"
-        android:layout_height="449dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
-
     <TextView
         android:id="@+id/tvTipDescription"
         android:layout_width="wrap_content"
@@ -133,5 +121,33 @@
         app:layout_constraintStart_toStartOf="@+id/seekBarTip"
         app:layout_constraintTop_toBottomOf="@+id/seekBarTip"
         tools:text="Description" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalAmount"
+        app:srcCompat="@drawable/ballershopke_logo" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Tippy Calculator App"
+        android:textColor="@color/dark_blue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvBaseLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
